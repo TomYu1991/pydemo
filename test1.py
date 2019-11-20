@@ -8,6 +8,7 @@ def parseData(weightState,consignId):
     # print(d.get('success'),d.get('msg'))
     # if d.get("success"):
     if weightState == '0':
+        print("hhh!")
         #一次过磅
         zl = random.randint(80000,120000)
         print('开始一次过磅重量：',zl)
